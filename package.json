@@ -1,0 +1,35 @@
+{
+  "name": "engined-database-mysql",
+  "version": "0.0.1",
+  "description": "MySQL agent for engined database service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnginedJS/engined-engined-mysql.git"
+  },
+  "keywords": [
+    "service",
+    "engined",
+    "database",
+    "mysql"
+  ],
+  "engines": {
+    "node": ">=7.4"
+  },
+  "author": "Fred Chien <cfsghost@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnginedJS/engined-database-mysql/issues"
+  },
+  "homepage": "https://github.com/EnginedJS/engined-database-mysql#readme",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "engined": ">=0.0.4",
+    "engined-database": "0.0.1",
+    "mysql2": "^1.4.2",
+    "sequelize": "^4.15.0"
+  }
+}
